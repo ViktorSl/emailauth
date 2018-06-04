@@ -1,32 +1,31 @@
-## To run the project:
+## Download and configure project
 
-  # 1. Download the project
+  Download the project and go to it's location 
   
-  # 2. Go to it's location 
+  `cd bluecar-fe`
+   
+  Then execute following command to install all needed modules 
   
-  ### `cd bluecar-fe`
+   `npm install`
   
-  # 3. Execute 
+## Run application on real device.
   
-  ### `npm install`
+  To run application on real device, execute following command.
   
-  # 4. To run this application in development mode on real device execute:
+  `npm run buildAndStart`
   
-  ### `npm run buildAndStart`
-
   Then open it in the [Expo app](https://expo.io) on your phone to view it.
   
-  # 5. To run this application on Android emulator / device:
+## Run application on Android emulator / device:
   
-  Have an Android emulator running (e.g. Genymotion) or device connected execute following command:
+  Make sure that Android emulator running (e.g. Genymotion) or device connected. Then execute following command :
   
-  ### `npm run buildRunAndroid`
+ `npm run buildRunAndroid`
   
-  
-  # 6. To run this application on IOS emulator / device (only MacOS)
+## Run application on IOS emulator / device (only MacOS)
   
   First install [Xcode](https://itunes.apple.com/au/app/xcode/id497799835?mt=12) via Mac App Store. Then emulate your app in the iOS Simulator
-  by executing following command
+  by executing following command:
   
-    ### `npm run buildRunIOS`
+  `npm run buildRunIOS`
   
